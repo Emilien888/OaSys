@@ -4,14 +4,37 @@
 
     </head>
     <body>
-        <div id="wrapper">
-            <div id="intro">
-                <h1>
+        <div id="wrapper" class="intro">
+            <div id="intro" class="intro">
+                <h1 id="title" class = "intro">
                     The OaSys server project website
                 </h1>
+                <h3 id="github" class="intro">      
+                    <b class="intro">
+                        <a class="intro" id="page" href="https://github.com/Emilien888/OaSys">
+                            Github repository:
+                        </a>
+                    </b>
+                </h3>
             </div>
-            <div id="downloads">
-                <a id="test" href="https://emilien888.github.io/OaSys/build/latest.zip" download>Latest</a>
+            <div id="downloads" class="downloads">
+                <div id="latest-download" class="downloads">
+                    <a id="latest" class="downloads" href="https://github.com/Emilien888/OaSys/blob/main/build/latest.zip?raw=true" download>
+                        <b>
+                            Latest version download
+                        </b>
+                    </a>
+                </div>
+                <div id="archived-downloads" class="downloads">
+                    <p id="title" class="downloads">
+                        <b>
+                            Other versions:
+                        </b>
+                    </p>
+                    <ul>
+                        
+                    </ul>
+                </div>
             </div>
         </div>
     </body>
@@ -21,10 +44,9 @@
             font-size: x-large;
             text-align: center;
         }
-
         #test{
             text-decoration:none;
-            color: black;
+            color:red;
         }
     </style>
 </html>
